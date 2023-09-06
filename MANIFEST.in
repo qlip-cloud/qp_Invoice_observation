@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qp_invoice_observation *.css
+recursive-include qp_invoice_observation *.csv
+recursive-include qp_invoice_observation *.html
+recursive-include qp_invoice_observation *.ico
+recursive-include qp_invoice_observation *.js
+recursive-include qp_invoice_observation *.json
+recursive-include qp_invoice_observation *.md
+recursive-include qp_invoice_observation *.png
+recursive-include qp_invoice_observation *.py
+recursive-include qp_invoice_observation *.svg
+recursive-include qp_invoice_observation *.txt
+recursive-exclude qp_invoice_observation *.pyc
