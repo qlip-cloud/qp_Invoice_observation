@@ -85,6 +85,10 @@ app_license = "MIT"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+override_doctype_class = {
+	'Opening Invoice Creation Tool': 'qp_invoice_observation.qp_invoice_observation.override.opening_invoice_creation_tool.CustomOpeningInvoiceCreationTool'
+}
+
 # Document Events
 # ---------------
 # Hook on document methods and events
